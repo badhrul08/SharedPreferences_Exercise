@@ -50,6 +50,8 @@ class MainActivity : AppCompatActivity() {
             editor.apply()
             binding.tvShowName.text = ""
             binding.tvShowId.text = ""
+            binding.etInputId.text = null
+            binding.etInputName.text = null
             Toast.makeText(this, "Data Clear", Toast.LENGTH_SHORT).show()
         }
     }
